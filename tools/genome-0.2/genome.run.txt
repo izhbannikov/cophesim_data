@@ -1,0 +1,1 @@
+./genome -N 200 -s 11 >genome.out.txt

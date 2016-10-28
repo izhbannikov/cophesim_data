@@ -1,0 +1,20 @@
+# Data simulation
+plink --simulate-ncases 5000 --simulate-ncontrols 5000 --simulate wgas.sim --out sim.plink --make-bed
+
+# Converting .bed to .ped
+plink --bfile sim.plink --recode --out sim.plink
+
+# Adding phenotype to simulated data
+python /Users/ilya/Projects/cophesim/cophesim.py -i sim.plink -o testout
+
+## Continous
+python /Users/ilya/Projects/cophesim/cophesim.py -i sim.plink -o testout -c
+
+## Survival
+python /Users/ilya/Projects/cophesim/cophesim.py -i sim.plink -o testout -s
+
+# Testing dichotomous trait
+plink --file /Users/ilya/Projects/cophesim_test/interaction/testout_pheno_bin.txt --1 --logistic --noweb --allow-no-sex --out /Users/ilya/Projects/cophesim_test/interaction/out
+
+# Testing quantitative (continous trait)
+plink --file /Users/ilya/Projects/cophesim_test/interaction/testout_pheno_cont.txt --linear --noweb --allow-no-sex --out /Users/ilya/Projects/cophesim_test/interaction/out

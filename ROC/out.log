@@ -1,0 +1,42 @@
+
+@----------------------------------------------------------@
+|        PLINK!       |     v1.07      |   10/Aug/2009     |
+|----------------------------------------------------------|
+|  (C) 2009 Shaun Purcell, GNU General Public License, v2  |
+|----------------------------------------------------------|
+|  For documentation, citation & bug-report instructions:  |
+|        http://pngu.mgh.harvard.edu/purcell/plink/        |
+@----------------------------------------------------------@
+
+Skipping web check... [ --noweb ] 
+Writing this text to log file [ /Users/ilya/Projects/cophesim_test/ROC/out.log ]
+Analysis started: Wed Oct 26 22:23:15 2016
+
+Options in effect:
+	--file /Users/ilya/Projects/cophesim_test/ROC/testout_pheno_cont.txt
+	--linear
+	--noweb
+	--allow-no-sex
+	--out /Users/ilya/Projects/cophesim_test/ROC/out
+
+1000 (of 1000) markers to be included from [ /Users/ilya/Projects/cophesim_test/ROC/testout_pheno_cont.txt.map ]
+Warning, found 10000 individuals with ambiguous sex codes
+Writing list of these individuals to [ /Users/ilya/Projects/cophesim_test/ROC/out.nosex ]
+10000 individuals read from [ /Users/ilya/Projects/cophesim_test/ROC/testout_pheno_cont.txt.ped ] 
+10000 individuals with nonmissing phenotypes
+Assuming a quantitative trait
+Missing phenotype value is -9
+0 males, 0 females, and 10000 of unspecified sex
+Before frequency and genotyping pruning, there are 1000 SNPs
+10000 founders and 0 non-founders found
+Total genotyping rate in remaining individuals is 1
+0 SNPs failed missingness test ( GENO > 1 )
+0 SNPs failed frequency test ( MAF < 0 )
+After frequency and genotyping pruning, there are 1000 SNPs
+After filtering, 10000 individuals with non-missing status
+After filtering, 0 males, 0 females, and 10000 of unspecified sex
+Converting data to Individual-major format
+Writing linear model association results to [ /Users/ilya/Projects/cophesim_test/ROC/out.assoc.linear ] 
+
+Analysis finished: Wed Oct 26 22:23:42 2016
+

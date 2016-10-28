@@ -1,0 +1,12 @@
+Input type: plink
+Output type: plink
+Input data: /Users/ilya/Projects/cophesim_test/ROC/sim.plink
+Cefile: /Users/ilya/Projects/cophesim_test/ROC/effects.txt
+Output prefix: /Users/ilya/Projects/cophesim_test/ROC/testout
+h: 0.8
+alpha: 0.2138
+Number of SNPs: 1000
+Number of individuals: 10000
+Number of cases: 499
+Number of controls: 9501
+Average for continous phenotype: -12.1126535613

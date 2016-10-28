@@ -1,0 +1,48 @@
+
+@----------------------------------------------------------@
+|        PLINK!       |     v1.07      |   10/Aug/2009     |
+|----------------------------------------------------------|
+|  (C) 2009 Shaun Purcell, GNU General Public License, v2  |
+|----------------------------------------------------------|
+|  For documentation, citation & bug-report instructions:  |
+|        http://pngu.mgh.harvard.edu/purcell/plink/        |
+@----------------------------------------------------------@
+
+Web-based version check ( --noweb to skip )
+Recent cached web-check found... OK, v1.07 is current
+
++++ PLINK 1.9 is now available! See above website for details +++ 
+
+Writing this text to log file [ sim.plink.log ]
+Analysis started: Fri Oct 28 19:33:45 2016
+
+Options in effect:
+	--simulate-ncases 5000
+	--simulate-ncontrols 5000
+	--simulate wgas.sim
+	--out sim.plink
+	--make-bed
+
+** For gPLINK compatibility, do not use '.' in --out **
+Reading simulation parameters from [ wgas.sim ]
+Writing SNP population frequencies to [ sim.plink.simfreq ]
+Read 1 sets of SNPs, specifying 100 SNPs in total
+Simulating 5000 cases and 5000 controls
+Assuming a disease prevalence of 0.01
+Simulating disease variants (direct association)
+
+Before frequency and genotyping pruning, there are 100 SNPs
+10000 founders and 0 non-founders found
+Total genotyping rate in remaining individuals is 1
+0 SNPs failed missingness test ( GENO > 1 )
+0 SNPs failed frequency test ( MAF < 0 )
+After frequency and genotyping pruning, there are 100 SNPs
+After filtering, 5000 cases, 5000 controls and 0 missing
+After filtering, 0 males, 10000 females, and 0 of unspecified sex
+Writing pedigree information to [ sim.plink.fam ] 
+Writing map (extended format) information to [ sim.plink.bim ] 
+Writing genotype bitfile to [ sim.plink.bed ] 
+Using (default) SNP-major mode
+
+Analysis finished: Fri Oct 28 19:33:46 2016
+

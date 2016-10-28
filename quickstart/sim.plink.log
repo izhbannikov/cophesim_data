@@ -1,0 +1,48 @@
+
+@----------------------------------------------------------@
+|        PLINK!       |     v1.07      |   10/Aug/2009     |
+|----------------------------------------------------------|
+|  (C) 2009 Shaun Purcell, GNU General Public License, v2  |
+|----------------------------------------------------------|
+|  For documentation, citation & bug-report instructions:  |
+|        http://pngu.mgh.harvard.edu/purcell/plink/        |
+@----------------------------------------------------------@
+
+Web-based version check ( --noweb to skip )
+Recent cached web-check found... OK, v1.07 is current
+
++++ PLINK 1.9 is now available! See above website for details +++ 
+
+Writing this text to log file [ sim.plink.log ]
+Analysis started: Fri Oct 28 18:26:11 2016
+
+Options in effect:
+	--bfile sim.plink
+	--recode
+	--out sim.plink
+
+** For gPLINK compatibility, do not use '.' in --out **
+Reading map (extended format) from [ sim.plink.bim ] 
+100 markers to be included from [ sim.plink.bim ]
+Reading pedigree information from [ sim.plink.fam ] 
+10000 individuals read from [ sim.plink.fam ] 
+10000 individuals with nonmissing phenotypes
+Assuming a disease phenotype (1=unaff, 2=aff, 0=miss)
+Missing phenotype value is also -9
+5000 cases, 5000 controls and 0 missing
+0 males, 10000 females, and 0 of unspecified sex
+Reading genotype bitfile from [ sim.plink.bed ] 
+Detected that binary PED file is v1.00 SNP-major mode
+Before frequency and genotyping pruning, there are 100 SNPs
+10000 founders and 0 non-founders found
+Total genotyping rate in remaining individuals is 1
+0 SNPs failed missingness test ( GENO > 1 )
+0 SNPs failed frequency test ( MAF < 0 )
+After frequency and genotyping pruning, there are 100 SNPs
+After filtering, 5000 cases, 5000 controls and 0 missing
+After filtering, 0 males, 10000 females, and 0 of unspecified sex
+Writing recoded ped file to [ sim.plink.ped ] 
+Writing new map file to [ sim.plink.map ] 
+
+Analysis finished: Fri Oct 28 18:26:11 2016
+

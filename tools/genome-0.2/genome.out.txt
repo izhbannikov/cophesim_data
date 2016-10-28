@@ -1,0 +1,63 @@
+
+GENOME-0.2: Whole Genome Coalescent Simulator. (2009.2) Liming Liang, Goncalo Abecasis
+
+     Parameters and effective values:
+     -pop     number of subpopulations and size of subsamples [ 2 10 10 ]
+     -N       effective size of each subpopulation or the filename for population profile [200]
+     -c       number of independent regions (chromosomes) to simulate [1]
+     -pieces  number of fragments per independent region [100]
+     -len     length in base of each fragment [10000]
+     -s       fixed number of SNPs per independent region (chromosome), -1 = number of SNPs follows Poisson distribution [11]
+     -rec     recombination rate bewteen consecutive fragments or the filename for recombination rate distribution [0.0001]
+     -mut     mutation rate per generation per base pair [1e-08]
+     -mig     migration rate per generation per individual [0.00025]
+     -seed    random seed, -1 = use time as the seed [-1]
+     -tree    1=draw the genealogy trees, 0=do not output [0]
+     -maf     Output SNPs with minor allele frequency greater than [0]
+     -prop    To keep this proportion of SNPs with MAF < the value of -maf parameter [1]
+
+     Scaled recombination rate = 3.9600e+00
+     Scaled migration rate = 1.0000e-01
+     Scaled mutation rate = 4.0000e+00
+
+*** POPULATION PROFILE ***
+The size of each population is fixed to 200
+Sizes of populations = 200 200 
+*** END OF POPULATION PROFILE ***
+
+
+random seed=1477409890
+Simulate mutation for Chromosome 1
+Coalescent Memory free
+Mutation process initialized
+Mutation assigned
+Mutation Memory allocated
+Internal memory free
+SNP genetic position scaled to [0,1]:
+0.050505 0.050505 0.171717 0.181818 0.242424 0.414141 0.444444 0.525253 0.525253 0.838384 0.89899 
+Chromosome done
+Return chromosome done
+
+Done simulating ARG ...
+Total number of SNPs = 11
+Samples:
+POP1: 00010000110
+POP1: 00010000110
+POP1: 00010000110
+POP1: 00010100110
+POP1: 00010000110
+POP1: 00010000110
+POP1: 00010000110
+POP1: 00010000110
+POP1: 00010000110
+POP1: 00010000110
+POP2: 01101001000
+POP2: 01101011001
+POP2: 01101001000
+POP2: 01101001000
+POP2: 01101001000
+POP2: 01101001000
+POP2: 01101001000
+POP2: 11101001000
+POP2: 01101011001
+POP2: 01101001000

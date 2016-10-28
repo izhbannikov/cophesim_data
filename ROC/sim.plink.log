@@ -1,0 +1,48 @@
+
+@----------------------------------------------------------@
+|        PLINK!       |     v1.07      |   10/Aug/2009     |
+|----------------------------------------------------------|
+|  (C) 2009 Shaun Purcell, GNU General Public License, v2  |
+|----------------------------------------------------------|
+|  For documentation, citation & bug-report instructions:  |
+|        http://pngu.mgh.harvard.edu/purcell/plink/        |
+@----------------------------------------------------------@
+
+Web-based version check ( --noweb to skip )
+Recent cached web-check found... OK, v1.07 is current
+
++++ PLINK 1.9 is now available! See above website for details +++ 
+
+Writing this text to log file [ /Users/ilya/Projects/cophesim_test/ROC/sim.plink.log ]
+Analysis started: Wed Oct 26 22:22:05 2016
+
+Options in effect:
+	--bfile /Users/ilya/Projects/cophesim_test/ROC/sim.plink
+	--recode
+	--out /Users/ilya/Projects/cophesim_test/ROC/sim.plink
+
+** For gPLINK compatibility, do not use '.' in --out **
+Reading map (extended format) from [ /Users/ilya/Projects/cophesim_test/ROC/sim.plink.bim ] 
+1000 markers to be included from [ /Users/ilya/Projects/cophesim_test/ROC/sim.plink.bim ]
+Reading pedigree information from [ /Users/ilya/Projects/cophesim_test/ROC/sim.plink.fam ] 
+10000 individuals read from [ /Users/ilya/Projects/cophesim_test/ROC/sim.plink.fam ] 
+10000 individuals with nonmissing phenotypes
+Assuming a disease phenotype (1=unaff, 2=aff, 0=miss)
+Missing phenotype value is also -9
+5000 cases, 5000 controls and 0 missing
+0 males, 10000 females, and 0 of unspecified sex
+Reading genotype bitfile from [ /Users/ilya/Projects/cophesim_test/ROC/sim.plink.bed ] 
+Detected that binary PED file is v1.00 SNP-major mode
+Before frequency and genotyping pruning, there are 1000 SNPs
+10000 founders and 0 non-founders found
+Total genotyping rate in remaining individuals is 1
+0 SNPs failed missingness test ( GENO > 1 )
+0 SNPs failed frequency test ( MAF < 0 )
+After frequency and genotyping pruning, there are 1000 SNPs
+After filtering, 5000 cases, 5000 controls and 0 missing
+After filtering, 0 males, 10000 females, and 0 of unspecified sex
+Writing recoded ped file to [ /Users/ilya/Projects/cophesim_test/ROC/sim.plink.ped ] 
+Writing new map file to [ /Users/ilya/Projects/cophesim_test/ROC/sim.plink.map ] 
+
+Analysis finished: Wed Oct 26 22:22:13 2016
+

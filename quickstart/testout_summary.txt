@@ -1,0 +1,12 @@
+Input type: plink
+Output type: plink
+Input data: sim.plink
+Cefile: None
+Epifile: None
+Output prefix: testout
+h: 0.8
+alpha: 0.2138
+Number of SNPs: 100
+Number of individuals: 10000
+Number of cases: 10000
+Number of controls: 0
