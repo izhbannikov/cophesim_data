@@ -1,4 +1,4 @@
-# cophesim_data - a data and example repository for ```cophesim```
+# cophesim_data - data and example repository for ```cophesim```
 
 You can download the ```cophesim``` from here: https://bitbucket.org/izhbannikov/cophesim
 
