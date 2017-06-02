@@ -8,30 +8,27 @@
 |        http://pngu.mgh.harvard.edu/purcell/plink/        |
 @----------------------------------------------------------@
 
-Web-based version check ( --noweb to skip )
-Recent cached web-check found... OK, v1.07 is current
-
-+++ PLINK 1.9 is now available! See above website for details +++ 
-
-Writing this text to log file [ /Users/ilya/Projects/cophesim_test/interaction/sim.plink.log ]
-Analysis started: Thu Oct 27 19:42:30 2016
+Skipping web check... [ --noweb ] 
+Writing this text to log file [ /Users/ilya/Projects/cophesim_data/interaction/sim.plink.log ]
+Analysis started: Fri Jun  2 15:16:49 2017
 
 Options in effect:
-	--bfile /Users/ilya/Projects/cophesim_test/interaction/sim.plink
+	--bfile /Users/ilya/Projects/cophesim_data/interaction/sim.plink
 	--recode
-	--out /Users/ilya/Projects/cophesim_test/interaction/sim.plink
+	--out /Users/ilya/Projects/cophesim_data/interaction/sim.plink
+	--noweb
 
 ** For gPLINK compatibility, do not use '.' in --out **
-Reading map (extended format) from [ /Users/ilya/Projects/cophesim_test/interaction/sim.plink.bim ] 
-100 markers to be included from [ /Users/ilya/Projects/cophesim_test/interaction/sim.plink.bim ]
-Reading pedigree information from [ /Users/ilya/Projects/cophesim_test/interaction/sim.plink.fam ] 
-10000 individuals read from [ /Users/ilya/Projects/cophesim_test/interaction/sim.plink.fam ] 
+Reading map (extended format) from [ /Users/ilya/Projects/cophesim_data/interaction/sim.plink.bim ] 
+100 markers to be included from [ /Users/ilya/Projects/cophesim_data/interaction/sim.plink.bim ]
+Reading pedigree information from [ /Users/ilya/Projects/cophesim_data/interaction/sim.plink.fam ] 
+10000 individuals read from [ /Users/ilya/Projects/cophesim_data/interaction/sim.plink.fam ] 
 10000 individuals with nonmissing phenotypes
 Assuming a disease phenotype (1=unaff, 2=aff, 0=miss)
 Missing phenotype value is also -9
 5000 cases, 5000 controls and 0 missing
 0 males, 10000 females, and 0 of unspecified sex
-Reading genotype bitfile from [ /Users/ilya/Projects/cophesim_test/interaction/sim.plink.bed ] 
+Reading genotype bitfile from [ /Users/ilya/Projects/cophesim_data/interaction/sim.plink.bed ] 
 Detected that binary PED file is v1.00 SNP-major mode
 Before frequency and genotyping pruning, there are 100 SNPs
 10000 founders and 0 non-founders found
@@ -41,8 +38,8 @@ Total genotyping rate in remaining individuals is 1
 After frequency and genotyping pruning, there are 100 SNPs
 After filtering, 5000 cases, 5000 controls and 0 missing
 After filtering, 0 males, 10000 females, and 0 of unspecified sex
-Writing recoded ped file to [ /Users/ilya/Projects/cophesim_test/interaction/sim.plink.ped ] 
-Writing new map file to [ /Users/ilya/Projects/cophesim_test/interaction/sim.plink.map ] 
+Writing recoded ped file to [ /Users/ilya/Projects/cophesim_data/interaction/sim.plink.ped ] 
+Writing new map file to [ /Users/ilya/Projects/cophesim_data/interaction/sim.plink.map ] 
 
-Analysis finished: Thu Oct 27 19:42:31 2016
+Analysis finished: Fri Jun  2 15:16:49 2017
 

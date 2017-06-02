@@ -9,20 +9,20 @@
 @----------------------------------------------------------@
 
 Skipping web check... [ --noweb ] 
-Writing this text to log file [ /Users/ilya/Projects/cophesim_test/interaction/out.log ]
-Analysis started: Thu Oct 27 20:10:59 2016
+Writing this text to log file [ /Users/ilya/Projects/cophesim_data/interaction/out.log ]
+Analysis started: Fri Jun  2 15:17:25 2017
 
 Options in effect:
-	--file /Users/ilya/Projects/cophesim_test/interaction/testout_pheno_cont.txt
+	--file /Users/ilya/Projects/cophesim_data/interaction/testout_pheno_cont.txt
 	--linear
 	--noweb
 	--allow-no-sex
-	--out /Users/ilya/Projects/cophesim_test/interaction/out
+	--out /Users/ilya/Projects/cophesim_data/interaction/out
 
-100 (of 100) markers to be included from [ /Users/ilya/Projects/cophesim_test/interaction/testout_pheno_cont.txt.map ]
+100 (of 100) markers to be included from [ /Users/ilya/Projects/cophesim_data/interaction/testout_pheno_cont.txt.map ]
 Warning, found 10000 individuals with ambiguous sex codes
-Writing list of these individuals to [ /Users/ilya/Projects/cophesim_test/interaction/out.nosex ]
-10000 individuals read from [ /Users/ilya/Projects/cophesim_test/interaction/testout_pheno_cont.txt.ped ] 
+Writing list of these individuals to [ /Users/ilya/Projects/cophesim_data/interaction/out.nosex ]
+10000 individuals read from [ /Users/ilya/Projects/cophesim_data/interaction/testout_pheno_cont.txt.ped ] 
 10000 individuals with nonmissing phenotypes
 Assuming a quantitative trait
 Missing phenotype value is -9
@@ -36,7 +36,7 @@ After frequency and genotyping pruning, there are 100 SNPs
 After filtering, 10000 individuals with non-missing status
 After filtering, 0 males, 0 females, and 10000 of unspecified sex
 Converting data to Individual-major format
-Writing linear model association results to [ /Users/ilya/Projects/cophesim_test/interaction/out.assoc.linear ] 
+Writing linear model association results to [ /Users/ilya/Projects/cophesim_data/interaction/out.assoc.linear ] 
 
-Analysis finished: Thu Oct 27 20:11:01 2016
+Analysis finished: Fri Jun  2 15:17:27 2017
 

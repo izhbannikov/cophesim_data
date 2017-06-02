@@ -1,8 +1,8 @@
 # Data simulation
-plink --simulate-ncases 5000 --simulate-ncontrols 5000 --simulate wgas.sim --out sim.plink --make-bed
+plink --simulate-ncases 5000 --simulate-ncontrols 5000 --simulate wgas.sim --out sim.plink --make-bed --noweb
 
 # Converting .bed to .ped
-plink --bfile sim.plink --recode --out sim.plink
+plink --bfile sim.plink --recode --out sim.plink --noweb
 
 # Adding phenotype to simulated data
 python /Users/ilya/Projects/cophesim/cophesim.py -i sim.plink -o testout
@@ -14,7 +14,7 @@ python /Users/ilya/Projects/cophesim/cophesim.py -i sim.plink -o testout -c
 python /Users/ilya/Projects/cophesim/cophesim.py -i sim.plink -o testout -s
 
 # Testing dichotomous trait
-plink --file /Users/ilya/Projects/cophesim_test/interaction/testout_pheno_bin.txt --1 --logistic --noweb --allow-no-sex --out /Users/ilya/Projects/cophesim_test/interaction/out
+plink --file testout_pheno_bin.txt --1 --logistic --noweb --allow-no-sex --out out
 
 # Testing quantitative (continous trait)
-plink --file /Users/ilya/Projects/cophesim_test/interaction/testout_pheno_cont.txt --linear --noweb --allow-no-sex --out /Users/ilya/Projects/cophesim_test/interaction/out
+plink --file testout_pheno_cont.txt --linear --noweb --allow-no-sex --out out

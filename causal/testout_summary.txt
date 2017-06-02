@@ -4,9 +4,8 @@ Input data: sim.plink
 Cefile: effects.txt
 Epifile: None
 Output prefix: testout
-h: 0.8
 alpha: 0.2138
 Number of SNPs: 100
 Number of individuals: 10000
-Number of cases: 9032
-Number of controls: 968
+Number of cases: 8980
+Number of controls: 1020

@@ -1,0 +1,42 @@
+
+@----------------------------------------------------------@
+|        PLINK!       |     v1.07      |   10/Aug/2009     |
+|----------------------------------------------------------|
+|  (C) 2009 Shaun Purcell, GNU General Public License, v2  |
+|----------------------------------------------------------|
+|  For documentation, citation & bug-report instructions:  |
+|        http://pngu.mgh.harvard.edu/purcell/plink/        |
+@----------------------------------------------------------@
+
+Skipping web check... [ --noweb ] 
+Writing this text to log file [ out.log ]
+Analysis started: Fri Jun  2 15:20:07 2017
+
+Options in effect:
+	--file testout_pheno_cont.txt
+	--linear
+	--noweb
+	--allow-no-sex
+	--out out
+
+100 (of 100) markers to be included from [ testout_pheno_cont.txt.map ]
+Warning, found 10000 individuals with ambiguous sex codes
+Writing list of these individuals to [ out.nosex ]
+10000 individuals read from [ testout_pheno_cont.txt.ped ] 
+10000 individuals with nonmissing phenotypes
+Assuming a quantitative trait
+Missing phenotype value is -9
+0 males, 0 females, and 10000 of unspecified sex
+Before frequency and genotyping pruning, there are 100 SNPs
+10000 founders and 0 non-founders found
+Total genotyping rate in remaining individuals is 1
+0 SNPs failed missingness test ( GENO > 1 )
+0 SNPs failed frequency test ( MAF < 0 )
+After frequency and genotyping pruning, there are 100 SNPs
+After filtering, 10000 individuals with non-missing status
+After filtering, 0 males, 0 females, and 10000 of unspecified sex
+Converting data to Individual-major format
+Writing linear model association results to [ out.assoc.linear ] 
+
+Analysis finished: Fri Jun  2 15:20:10 2017
+

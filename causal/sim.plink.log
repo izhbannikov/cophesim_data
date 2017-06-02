@@ -8,29 +8,28 @@
 |        http://pngu.mgh.harvard.edu/purcell/plink/        |
 @----------------------------------------------------------@
 
-Web-based version check ( --noweb to skip )
-Recent cached web-check found... OK, v1.07 is current
-
-+++ PLINK 1.9 is now available! See above website for details +++ 
-
+Skipping web check... [ --noweb ] 
 Writing this text to log file [ sim.plink.log ]
-Analysis started: Fri Oct 28 19:33:45 2016
+Analysis started: Fri Jun  2 15:15:22 2017
 
 Options in effect:
-	--simulate-ncases 5000
-	--simulate-ncontrols 5000
-	--simulate wgas.sim
+	--bfile sim.plink
+	--recode
 	--out sim.plink
-	--make-bed
+	--noweb
 
 ** For gPLINK compatibility, do not use '.' in --out **
-Reading simulation parameters from [ wgas.sim ]
-Writing SNP population frequencies to [ sim.plink.simfreq ]
-Read 1 sets of SNPs, specifying 100 SNPs in total
-Simulating 5000 cases and 5000 controls
-Assuming a disease prevalence of 0.01
-Simulating disease variants (direct association)
-
+Reading map (extended format) from [ sim.plink.bim ] 
+100 markers to be included from [ sim.plink.bim ]
+Reading pedigree information from [ sim.plink.fam ] 
+10000 individuals read from [ sim.plink.fam ] 
+10000 individuals with nonmissing phenotypes
+Assuming a disease phenotype (1=unaff, 2=aff, 0=miss)
+Missing phenotype value is also -9
+5000 cases, 5000 controls and 0 missing
+0 males, 10000 females, and 0 of unspecified sex
+Reading genotype bitfile from [ sim.plink.bed ] 
+Detected that binary PED file is v1.00 SNP-major mode
 Before frequency and genotyping pruning, there are 100 SNPs
 10000 founders and 0 non-founders found
 Total genotyping rate in remaining individuals is 1
@@ -39,10 +38,8 @@ Total genotyping rate in remaining individuals is 1
 After frequency and genotyping pruning, there are 100 SNPs
 After filtering, 5000 cases, 5000 controls and 0 missing
 After filtering, 0 males, 10000 females, and 0 of unspecified sex
-Writing pedigree information to [ sim.plink.fam ] 
-Writing map (extended format) information to [ sim.plink.bim ] 
-Writing genotype bitfile to [ sim.plink.bed ] 
-Using (default) SNP-major mode
+Writing recoded ped file to [ sim.plink.ped ] 
+Writing new map file to [ sim.plink.map ] 
 
-Analysis finished: Fri Oct 28 19:33:46 2016
+Analysis finished: Fri Jun  2 15:15:23 2017
 

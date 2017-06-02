@@ -1,14 +1,14 @@
 # Data simulation
-plink --simulate-ncases 5000 --simulate-ncontrols 5000 --simulate /Users/ilya/Projects/cophesim_test/interaction/wgas.sim --out /Users/ilya/Projects/cophesim_test/interaction/sim.plink --make-bed
+plink --simulate-ncases 5000 --simulate-ncontrols 5000 --simulate /Users/ilya/Projects/cophesim_data/interaction/wgas.sim --out /Users/ilya/Projects/cophesim_test/interaction/sim.plink --make-bed --noweb
 
 # Converting .bed to .ped
-plink --bfile /Users/ilya/Projects/cophesim_test/interaction/sim.plink --recode --out /Users/ilya/Projects/cophesim_test/interaction/sim.plink
+plink --bfile /Users/ilya/Projects/cophesim_data/interaction/sim.plink --recode --out /Users/ilya/Projects/cophesim_data/interaction/sim.plink --noweb
 
 # Adding phenotype to simulated data
-python /Users/ilya/Projects/cophesim/cophesim.py -i /Users/ilya/Projects/cophesim_test/interaction/sim.plink -o /Users/ilya/Projects/cophesim_test/interaction/testout -itype plink -otype plink -c -ce /Users/ilya/Projects/cophesim_test/interaction/effects.txt -s -gomp -epi /Users/ilya/Projects/cophesim_test/interaction/epifile.txt
+python /Users/ilya/Projects/cophesim/cophesim.py -i /Users/ilya/Projects/cophesim_data/interaction/sim.plink -o /Users/ilya/Projects/cophesim_data/interaction/testout -itype plink -otype plink -c -ce /Users/ilya/Projects/cophesim_data/interaction/effects.txt -s -gomp -epi /Users/ilya/Projects/cophesim_data/interaction/epifile.txt
 
 # Testing dichotomous trait
-plink --file /Users/ilya/Projects/cophesim_test/interaction/testout_pheno_bin.txt --1 --logistic --noweb --allow-no-sex --out /Users/ilya/Projects/cophesim_test/interaction/out
+plink --file /Users/ilya/Projects/cophesim_data/interaction/testout_pheno_bin.txt --1 --logistic --noweb --allow-no-sex --out /Users/ilya/Projects/cophesim_data/interaction/out
 
 # Testing quantitative (continous trait)
-plink --file /Users/ilya/Projects/cophesim_test/interaction/testout_pheno_cont.txt --linear --noweb --allow-no-sex --out /Users/ilya/Projects/cophesim_test/interaction/out
+plink --file /Users/ilya/Projects/cophesim_data/interaction/testout_pheno_cont.txt --linear --noweb --allow-no-sex --out /Users/ilya/Projects/cophesim_data/interaction/out

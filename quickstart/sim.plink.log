@@ -8,18 +8,15 @@
 |        http://pngu.mgh.harvard.edu/purcell/plink/        |
 @----------------------------------------------------------@
 
-Web-based version check ( --noweb to skip )
-Recent cached web-check found... OK, v1.07 is current
-
-+++ PLINK 1.9 is now available! See above website for details +++ 
-
+Skipping web check... [ --noweb ] 
 Writing this text to log file [ sim.plink.log ]
-Analysis started: Fri Oct 28 18:26:11 2016
+Analysis started: Fri Jun  2 15:19:11 2017
 
 Options in effect:
 	--bfile sim.plink
 	--recode
 	--out sim.plink
+	--noweb
 
 ** For gPLINK compatibility, do not use '.' in --out **
 Reading map (extended format) from [ sim.plink.bim ] 
@@ -44,5 +41,5 @@ After filtering, 0 males, 10000 females, and 0 of unspecified sex
 Writing recoded ped file to [ sim.plink.ped ] 
 Writing new map file to [ sim.plink.map ] 
 
-Analysis finished: Fri Oct 28 18:26:11 2016
+Analysis finished: Fri Jun  2 15:19:12 2017
 

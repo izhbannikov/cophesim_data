@@ -1,8 +1,8 @@
 # Data simulation
-plink --simulate-ncases 5000 --simulate-ncontrols 5000 --simulate wgas.sim --out sim.plink --make-bed
+plink --simulate-ncases 5000 --simulate-ncontrols 5000 --simulate wgas.sim --out sim.plink --make-bed --noweb
 
 # Converting .bed to .ped
-plink --bfile sim.plink --recode --out sim.plink
+plink --bfile sim.plink --recode --out sim.plink --noweb
 
 # Adding phenotype to simulated data
-python /Users/ilya/Projects/cophesim/cophesim.py -i sim.plink -o testout -ce effects.txt
+python /Users/ilya/Projects/cophesim/cophesim.py -i sim.plink -o testout -ce effects.txt -s
