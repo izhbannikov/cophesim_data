@@ -9,29 +9,27 @@
 @----------------------------------------------------------@
 
 Web-based version check ( --noweb to skip )
-Recent cached web-check found... OK, v1.07 is current
+Recent cached web-check found...Problem connecting to web
 
-+++ PLINK 1.9 is now available! See above website for details +++ 
-
-Writing this text to log file [ /Users/ilya/Projects/cophesim_test/ROC/sim.plink.log ]
-Analysis started: Wed Oct 26 22:22:05 2016
+Writing this text to log file [ /Users/ilya/Projects/cophesim_data/ROC/sim.plink.log ]
+Analysis started: Tue Jun  6 21:14:51 2017
 
 Options in effect:
-	--bfile /Users/ilya/Projects/cophesim_test/ROC/sim.plink
+	--bfile /Users/ilya/Projects/cophesim_data/ROC/sim.plink
 	--recode
-	--out /Users/ilya/Projects/cophesim_test/ROC/sim.plink
+	--out /Users/ilya/Projects/cophesim_data/ROC/sim.plink
 
 ** For gPLINK compatibility, do not use '.' in --out **
-Reading map (extended format) from [ /Users/ilya/Projects/cophesim_test/ROC/sim.plink.bim ] 
-1000 markers to be included from [ /Users/ilya/Projects/cophesim_test/ROC/sim.plink.bim ]
-Reading pedigree information from [ /Users/ilya/Projects/cophesim_test/ROC/sim.plink.fam ] 
-10000 individuals read from [ /Users/ilya/Projects/cophesim_test/ROC/sim.plink.fam ] 
+Reading map (extended format) from [ /Users/ilya/Projects/cophesim_data/ROC/sim.plink.bim ] 
+1000 markers to be included from [ /Users/ilya/Projects/cophesim_data/ROC/sim.plink.bim ]
+Reading pedigree information from [ /Users/ilya/Projects/cophesim_data/ROC/sim.plink.fam ] 
+10000 individuals read from [ /Users/ilya/Projects/cophesim_data/ROC/sim.plink.fam ] 
 10000 individuals with nonmissing phenotypes
 Assuming a disease phenotype (1=unaff, 2=aff, 0=miss)
 Missing phenotype value is also -9
 5000 cases, 5000 controls and 0 missing
 0 males, 10000 females, and 0 of unspecified sex
-Reading genotype bitfile from [ /Users/ilya/Projects/cophesim_test/ROC/sim.plink.bed ] 
+Reading genotype bitfile from [ /Users/ilya/Projects/cophesim_data/ROC/sim.plink.bed ] 
 Detected that binary PED file is v1.00 SNP-major mode
 Before frequency and genotyping pruning, there are 1000 SNPs
 10000 founders and 0 non-founders found
@@ -41,8 +39,8 @@ Total genotyping rate in remaining individuals is 1
 After frequency and genotyping pruning, there are 1000 SNPs
 After filtering, 5000 cases, 5000 controls and 0 missing
 After filtering, 0 males, 10000 females, and 0 of unspecified sex
-Writing recoded ped file to [ /Users/ilya/Projects/cophesim_test/ROC/sim.plink.ped ] 
-Writing new map file to [ /Users/ilya/Projects/cophesim_test/ROC/sim.plink.map ] 
+Writing recoded ped file to [ /Users/ilya/Projects/cophesim_data/ROC/sim.plink.ped ] 
+Writing new map file to [ /Users/ilya/Projects/cophesim_data/ROC/sim.plink.map ] 
 
-Analysis finished: Wed Oct 26 22:22:13 2016
+Analysis finished: Tue Jun  6 21:14:59 2017
 
